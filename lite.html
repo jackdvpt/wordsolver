@@ -19,7 +19,7 @@ font-size: 59vmin;
     console.log(solution)
     
     var ele = document.getElementById('container');
-    ele.innerHTML += solution;
+    ele.innerHTML += '{"glossary": ' + solution + '}' ;
     
     function Pa(e) {
         var a, s = Na(e);
